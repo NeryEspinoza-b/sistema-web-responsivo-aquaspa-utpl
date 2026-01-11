@@ -19,7 +19,7 @@ sistema-web-responsivo-aquaspa/
 
 ## Configuración del entorno
 
-Por motivos de seguridad, las variables de entorno no se incluyen en el repositorio. El archivo `.env` debe ser creado localmente por el usuario, tomando como referencia el archivo `backend/.env.example`.
+Por motivos de seguridad, las variables de entorno no se incluyen en el repositorio. El archivo `.env` debe ser creado localmente por el usuario.
 
 ## Ejecución del proyecto
 
