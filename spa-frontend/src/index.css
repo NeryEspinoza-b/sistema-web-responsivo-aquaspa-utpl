@@ -1,0 +1,94 @@
+@import "tailwindcss";
+/* =====================================
+   DataTables – Accesible Bajo Brillo
+   Ideal para uso prolongado
+===================================== */
+
+.dataTables_wrapper {
+  font-family: inherit;
+  color: #1f2937;
+}
+
+/* CABECERA */
+table.dataTable thead th {
+  background-color: #1e293b; /* azul gris oscuro */
+  color: #f8fafc;
+  font-weight: 600;
+  padding: 0.85rem 1rem;
+  border-bottom: none;
+  white-space: nowrap;
+}
+
+/* TABLA SIN BORDE */
+table.dataTable.no-footer {
+  border-bottom: none;
+}
+
+/* CELDAS */
+table.dataTable td {
+  padding: 0.75rem 1rem;
+  vertical-align: middle;
+  background-color: #fbfbfb;
+}
+
+/* ZEBRA */
+table.dataTable.stripe tbody tr.odd td {
+  background-color: #f1f5f9;
+}
+
+/* HOVER (muy suave) */
+table.dataTable tbody tr:hover td {
+  background-color: #e2e8f0;
+}
+
+/* BUSCADOR */
+.dataTables_filter input {
+  border-radius: 0.4rem;
+  border: 2px solid #cbd5e1;
+  padding: 0.35rem 0.6rem;
+  color: #1f2937;
+  background-color: #ffffff;
+}
+
+.dataTables_filter input:focus {
+  outline: none;
+  border-color: #475569;
+  box-shadow: 0 0 0 2px rgba(71,85,105,0.25);
+}
+
+/* SELECT */
+.dataTables_length select {
+  border-radius: 0.4rem;
+  border: 2px solid #cbd5e1;
+  padding: 0.3rem;
+  background-color: #ffffff;
+}
+
+/* INFO */
+.dataTables_info {
+  color: #475569;
+  font-size: 0.85rem;
+}
+
+/* PAGINACIÓN */
+.dataTables_paginate {
+  margin-top: 1rem;
+}
+
+.dataTables_paginate .paginate_button {
+  border-radius: 0.4rem !important;
+  padding: 0.3rem 0.7rem !important;
+  margin: 0 0.15rem;
+  background-color: #e5e7eb !important;
+  color: #1f2937 !important;
+  border: none !important;
+}
+
+.dataTables_paginate .paginate_button:hover {
+  background-color: #cbd5e1 !important;
+}
+
+.dataTables_paginate .paginate_button.current {
+  background-color: #334155 !important;
+  color: #f8fafc !important;
+}
